@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E9E1"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:cropToPadding="true"
+        android:paddingBottom="30dp"
+        android:paddingTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pantaijepara" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hotel"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_below="@+id/imageView2"
+        android:gravity="center"
+        android:text="Hotel"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/restoran"
+    android:id="@+id/imageView2"
+    android:layout_marginRight="70dp"
+    android:layout_marginEnd="70dp"
+    android:layout_below="@+id/imageView"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Restaurant"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView2"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tempat"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Wisata"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/keranjang"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:id="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:gravity="center"
+        android:text="Belanja"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
